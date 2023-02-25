@@ -3,6 +3,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Montserrat';
 }
 
 body {
@@ -174,10 +175,135 @@ body {
 
 .navbar-link:hover {
     font-weight: 900;
+    border-bottom: 2px solid #6B1A94;
 }
 
 .navbar-link:active {
-    text-decoration: underline;
+    border-bottom: 2px solid #6B1A94;
+}
+
+.current {
+    font-weight: 900;
+    border-bottom: 2px solid #6B1A94;
+}
+
+/* main */
+
+main {
+    background-color:#ffffff;
+}
+
+.aboutus-heading {
+    color: #6B1A94;
+    text-align: center;
+    margin: 32px 0;
+}
+
+.aboutus-container {
+    display: flex;
+}
+
+.aboutus-text {
+    margin: 0 0 32px 32px;
+}
+
+.aboutus-text > p {
+    margin: 24px 0;
+}
+
+.aboutus-text > p:first-child {
+    font-weight: 600;
+}
+
+.aboutus-photo > img {
+    width: 280px;
+    margin: 32px;
+}
+
+/*.ourteam {
+    display: flex;
+}*/
+
+.ourteam-heading {
+    text-align: center;
+    color: #6B1A94;
+}
+
+.ourteam-container {
+    display: grid;
+    grid-template-areas: 
+        "1fr  1fr"
+        "1fr  1fr";
+}
+
+.ourteam-item {
+    display: flex;
+    flex-direction: column;
+    margin: 32px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ourteam-item-name {
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.ourteam-item-photo {
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid #D684FF;
+    margin-bottom: 16px;
+}
+
+.howwork-heading {
+    text-align: center;
+    color: #6B1A94;
+    margin-bottom: 20px;
+}
+
+.howwork-item-container {
+    display: grid;
+    grid-template-areas:
+            "1fr 1fr"
+            "1fr 1fr"
+            "1fr 1fr";
+    margin: 0 60px;
+}
+
+.howwork-item {
+    margin: 10px 40px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.howwork-item:nth-child(1) {
+    background-color: #F0D0FF;
+}
+
+.howwork-item:nth-child(2) {
+    border: 2px solid #F0D0FF;
+}
+
+.howwork-item:nth-child(3) {
+    border: 2px solid #F0D0FF;
+}
+
+.howwork-item:nth-child(4) {
+    background-color: #F0D0FF;
+}
+
+.howwork-item:nth-child(5) {
+    background-color: #F0D0FF;
+}
+
+.howwork-item:nth-child(6) {
+    border: 2px solid #F0D0FF;
+}
+
+.howwork-item:nth-child(7) {
+    border: 2px solid #F0D0FF;
 }
 
 /* fixed-button */
