@@ -17,7 +17,7 @@ body {
 
 .wrapper1 {
     display: flex;
-    width: 1100px;
+    width: 900px;
     justify-content: center;
     align-items: center;
     background-color: #E8BAFF;
@@ -25,7 +25,7 @@ body {
 .wrapper2 {
     display: flex;
     flex-direction: column;
-    width: 1050px;
+    width: 850px;
 }
 
 /* header */
@@ -33,12 +33,12 @@ body {
 .header {
     display: flex;
     height: 310px;
-    width: 1100px;
+    width: 900px;
 }
 
 .header-wrapper {
     display: flex;
-    width: 1100px;
+    width: 900px;
     flex-direction: column;
 }
 
@@ -49,7 +49,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1050px;
+    width: 850px;
 }
 
 .header-logo-circle {
@@ -81,13 +81,13 @@ body {
 /* header-image */
 
 .header-image-wrapper {
-    width: 1050px;
+    width: 850px;
     height: 100%;
     border-bottom: 3px solid #ffffff;
 }
 
 .header-image {
-    width: 1050px;
+    width: 850px;
     height: 266px;
     background-size: contain;
 }
@@ -96,7 +96,7 @@ body {
 
 .navbar {
     display: flex;
-    width: 1050px;
+    width: 850px;
     height: 50px;
     background: linear-gradient(180deg, rgba(240, 208, 255, 0) -36.01%, #F0D0FF 72.58%);
     justify-content: flex-start;
@@ -200,6 +200,8 @@ main {
     font-weight: 600;
 }
 
+/* Как мы работаем */
+
 .howwork-heading {
     text-align: center;
     color: #6B1A94;
@@ -218,7 +220,7 @@ main {
 
 .howwork-item {
     margin: 10px 40px;
-    height: 120px;
+    height: 220px;
     padding: 20px;
     border-radius: 10px;
     display: flex;
@@ -239,7 +241,6 @@ main {
 
 .howwork-item:nth-child(3) {
     border: 2px solid #F0D0FF;
-    
 }
 
 .howwork-item:nth-child(4) {
@@ -264,11 +265,6 @@ main {
     margin: 0 20px 10px 0;
 }
 
-.howwork-item:nth-child(2) > img {
-    width: 60px;
-    height: 60px;
-    margin-top: 10px;
-}
 
 .howwork-item-text {
     display: flex;
@@ -350,6 +346,10 @@ main {
     margin-left: 20px;
 }
 
+.partners-logos > img {
+    width: 800px;
+}
+
 .feedback-item {
     margin: 20px;
     border: 2px solid #F0D0FF;
@@ -367,6 +367,7 @@ main {
     font-size: 16px;
     font-style: italic;
 }
+
 
 .feedback-item-comment {
     text-align: justify;
@@ -422,12 +423,12 @@ main {
 /* footer */
 
 .footer {
-    width: 1050px;
+    width: 850px;
     height: 200px;
 }
 
 .footer-wrapper {
-    width: 1050px;
+    width: 850px;
     height: 200px;
     display: flex;
     background-color: #F0D0FF;
@@ -664,7 +665,7 @@ main {
 
 .tourselection-form > button {
     width: 250px;
-    margin: 20px auto 0;
+    margin: 40px auto 0;
     height: 50px;
     border-radius: 10px;
     border: 1px solid #ffffff;
@@ -685,6 +686,7 @@ main {
     color: #000000;
     font-size: smaller;
 }
+
 
 .hidden {
     opacity: 0;
